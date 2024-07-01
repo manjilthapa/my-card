@@ -5,15 +5,17 @@
     <title>Medtrace</title>
   </head>
   <body>
-    <my-card title="heading" content="this is content" headerColor="blue">
-    </my-card>
+    <my-container>
+      <my-card title="heading" content="this is content" headerColor="blue">
+        <button id="btn" slot="btn">click</button>
+      </my-card>
 
-    <my-card
-      title="heading 2"
-      content="this is instance nr 2"
-      headerColor="green"
-    ></my-card>
-
+      <my-card
+        title="heading 2"
+        content="this is instance nr 2"
+        headerColor="green"
+      ></my-card>
+    </my-container>
     <script type="text/javascript" src="main.js" defer></script>
   </body>
 </html>
